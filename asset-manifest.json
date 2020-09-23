@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/wedding-scrinzi/static/css/main.dd50044c.chunk.css",
+    "main.js": "/wedding-scrinzi/static/js/main.922b9640.chunk.js",
+    "main.js.map": "/wedding-scrinzi/static/js/main.922b9640.chunk.js.map",
+    "runtime-main.js": "/wedding-scrinzi/static/js/runtime-main.3298a269.js",
+    "runtime-main.js.map": "/wedding-scrinzi/static/js/runtime-main.3298a269.js.map",
+    "static/js/2.b86b4907.chunk.js": "/wedding-scrinzi/static/js/2.b86b4907.chunk.js",
+    "static/js/2.b86b4907.chunk.js.map": "/wedding-scrinzi/static/js/2.b86b4907.chunk.js.map",
+    "index.html": "/wedding-scrinzi/index.html",
+    "precache-manifest.70d7af914ab782179ebe73196f54bc65.js": "/wedding-scrinzi/precache-manifest.70d7af914ab782179ebe73196f54bc65.js",
+    "service-worker.js": "/wedding-scrinzi/service-worker.js",
+    "static/css/main.dd50044c.chunk.css.map": "/wedding-scrinzi/static/css/main.dd50044c.chunk.css.map",
+    "static/js/2.b86b4907.chunk.js.LICENSE.txt": "/wedding-scrinzi/static/js/2.b86b4907.chunk.js.LICENSE.txt",
+    "static/media/C&B.jpg": "/wedding-scrinzi/static/media/C&B.8a71d4a1.jpg",
+    "static/media/App.css": "/wedding-scrinzi/static/media/EmCapo.9c43ddd5.jpg",
+    "static/media/Story.css": "/wedding-scrinzi/static/media/TuesdayNight-Regular.fdd10873.otf",
+    "static/media/pic.jpg": "/wedding-scrinzi/static/media/pic.17e3ed5d.jpg",
+    "static/media/tgt.jpg": "/wedding-scrinzi/static/media/tgt.6483cf47.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3298a269.js",
+    "static/js/2.b86b4907.chunk.js",
+    "static/css/main.dd50044c.chunk.css",
+    "static/js/main.922b9640.chunk.js"
+  ]
+}
