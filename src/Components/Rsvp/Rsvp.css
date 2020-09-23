@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'Tuesday Night';
+  src: url(../../TuesdayNight-Regular.otf);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 60%;
+  background-color: rgba(173, 158, 158, 0.514);
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  box-shadow: 3px 3px 5px rgba(150, 149, 149, 0.623);
+  border-radius: 10px;
+}
+
+#RSVPblock {
+  padding-top: 80px;
+}
+
+
+.container img {
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 1px 1px  2px rgba(180, 179, 179, 0.616);
+  border-radius: 10px;
+}
+
+.box[type = 'text'], .box[type = 'email'] {
+  width: 80%;
+  transition: .5s;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 24px;
+  border: 3px solid rgba(94, 91, 91, 0);
+  background-color: rgba(175, 175, 175, 0.5);
+  text-decoration: none;
+  outline: none;
+  box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.493);
+}
+
+.box:hover {
+  width: 85%;
+  cursor: text;
+}
+
+.box:focus {
+  border: 3px solid rgba(0, 0, 0, 0.377);
+  background-color: rgba(94, 91, 91, 0.466);
+}
+
+input[type = 'radio'] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+label {
+  padding-left: 60px;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 5px rgba(88, 88, 88, 0.527);
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+.checkbox {
+  transition: .5s;
+  margin-right: 20px;
+  height: 25px;
+  width: 25px;
+  background-color: rgba(175, 175, 175, 0.5);
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.493);
+}
+
+label:hover input ~ .checkbox {
+  background-color: rgba(94, 91, 91, 0.466);
+}
+
+label input:checked ~ .checkbox {
+  background-color: rgba(48, 48, 48, 0.8);
+}
+
+.checkbox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+label input:checked ~ .checkbox:after {
+  display: flex;
+}
+
+label .checkbox:after {
+  margin-top: 9px;
+  margin-left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(225, 225, 225, 0.8);
+}

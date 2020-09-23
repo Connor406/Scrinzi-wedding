@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  z-index: 20;
+}
+
+
+a {
+  color: rgba(48, 48, 48, 0.4);
+  font-size: 1rem;
+  transition: .5s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(48, 48, 48, 0.8);
+  cursor: pointer;
+}
+
+.rsvpLink a{
+  color: rgba(37, 14, 14, 0.4);
+  font-size: 1.2rem;
+  transition: .5s;
+}
+
+.rsvpLink:hover a{
+  color: rgba(48, 48, 48, 1);
+  cursor: default;
+  border-left: solid 2px rgba(37, 14, 14, 1);
+  border-right: solid 2px rgba(37, 14, 14, 1);
+  cursor: pointer;
+}
+
+.rsvpLink{
+  border-left: solid 2px rgba(37, 14, 14, 0.6);
+  border-right: solid 2px rgba(37, 14, 14, 0.6);
+  padding: 0 20px;
+}
+
+.Top {
+  position: fixed;
+  width: 10%;
+  bottom: 20px;
+  display: flex;
+  right: 40px;
+  font-size: 2.5rem;
+  align-items: center;
+  height: 20px;
+  justify-content: flex-end;
+  z-index: 25;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+  color: rgba(48, 48, 48, 0.5);
+  scroll-behavior: smooth;
+}
+
+.Top:hover {
+  color: rgba(48, 48, 48, 0.9);
+}
+
+#registry {
+  margin-top: 80px;
+}

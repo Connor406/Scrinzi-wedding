@@ -1,0 +1,58 @@
+.DetailsContainer {
+  display: flex;
+  margin: 0px auto;
+  margin-top: 100px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.textContainer {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.map {
+  margin-left: auto;
+  margin-right: auto;
+  flex-basis: 100%;
+}
+
+.textContainer h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 3.8rem;
+  width: 100%;
+}
+
+.dasTable {
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tableQ {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  width: 100%;
+}
+
+.tableResponse {
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+.DetailsContainer iframe {
+  width: 40%;
+  padding: 0px 30%;
+  border: none;
+  margin-bottom: 300px;
+}

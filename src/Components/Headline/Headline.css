@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.nameContainer{
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition:  1s;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.nameContainer:hover {
+  color: rgba(48, 48, 48, 0.568);
+  cursor: default;
+}
+
+.nameContainer:hover .date{
+  color: rgba(48, 48, 48, 0.568);
+}
+
+.Names {
+  font-size: 6rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.nameContainer .date {
+  flex-wrap: wrap;
+  font-size: 8rem;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  width: 70%;
+  margin: 0 auto;
+  transition: 1.5s;
+  color: rgba(255, 255, 255, 0.0);
+}

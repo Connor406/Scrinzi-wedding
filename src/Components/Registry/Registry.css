@@ -1,0 +1,30 @@
+.registryContainer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 120px auto;
+  margin-bottom: 0px;
+  padding-top: 100px;
+}
+
+.logos {
+  max-height: 250px;
+  transition: .5s;
+  margin-bottom: 120px;
+}
+
+.logos:hover{
+  max-height: 270px;
+  margin-bottom: 100px;
+}
+
+.registryTitle {
+  padding: 5px 30px;
+  flex-basis: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 2.5rem;
+  padding-left: 12%;
+}
+
